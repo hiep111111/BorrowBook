@@ -1,0 +1,23 @@
+.CombinedChartsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ChartContainer {
+  
+  max-height: 80vh; /* Giới hạn chiều cao tối đa của phần tử chứa biểu đồ */
+  width: 100%;
+  .wrapSelect{
+    display: flex;
+margin-left: 69px;
+margin-top: 20px;
+
+  }
+  .bar{
+margin-left: 69px;
+padding-right: 54px;
+
+
+  }
+}
